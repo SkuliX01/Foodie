@@ -1,15 +1,14 @@
 <script>
-    import BiHomeAlt2 from "svelte-icons-pack/bi/BiHomeAlt2";
-    import Icon from 'svelte-icons-pack/Icon.svelte';
-
+    import Icon from '@iconify/svelte';
 </script>
 
 <div class="flex justify-content-center justify-center">
-    <div class="flex justify-content-center justify-center bg-white w-[240px] h-[55px] mt-[15px] rounded-xl">
-        
+    <div class="w-[180px] h-[50px] flex justify-content-center justify-center bg-white mt-[20px] rounded-xl">
+        <button class=" w-[50px] h-[35px] mt-[6px] flex justify-content-center justify-center" title="home"><Icon icon="material-symbols:home" width="50" height="40" class="rounded-full bg-white animate-Fadeout hover:animate-Fadein"/></button>
+        <button class=" w-[50px] h-[35px] mt-[6px] flex justify-content-center justify-center" title="menu"><Icon icon="material-symbols:book" width="50" height="40" class="rounded-full bg-white animate-Fadeout hover:animate-Fadein"/></button>
+        <button class=" bg-white w-[50px] h-[35px] mt-[6px] flex justify-content-center justify-center rounded-full" title="cart"><Icon icon="material-symbols:shopping-cart" width="50" height="40" class="rounded-full bg-white animate-Fadeout hover:animate-Fadein" /></button>
     </div>
 </div>
-
 
 <style lang="postcss">
 
