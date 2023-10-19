@@ -14,8 +14,8 @@ export default {
         }
       },
       animation : {
-        Fadein : 'Fadein 1s ease forwards',
-        Fadeout : 'Fadeout 1s ease backwards'
+        Fadein : 'Fadein 0.7s ease forwards',
+        Fadeout : 'Fadeout 0.7s ease backwards'
       }
     },
   },
